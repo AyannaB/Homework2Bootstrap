@@ -6,9 +6,9 @@ body{
 }
 #backgroundPic{
     background: url('../images/background.jpg');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 900px;
+    min-height: 1000px;
 }
 .content{
     float: left;
@@ -18,18 +18,18 @@ body{
     text-align: center;
 }
 #About{
-    margin-top: -650px;
+    margin-top: -750px;
 }
 .contact{
     width: 400px;
-    margin-top: -600px;
-    margin-left: 400px;
+    margin-top: -720px;
+    margin-left: 320px;
     margin-right: 400px;
 }
-.btn-primary{
-    margin-left: 400px;
+/* .btn-primary{
+    margin-left: 320px;
     margin-right: 400px;
-}
+} */
 #box{
     position: absolute;
     width: 300px;
@@ -37,10 +37,11 @@ body{
     z-index: 15;
     top: 50%;
     left: 50%;
-    margin: -100px 0 0 -150px;
+    margin: -100px 0 0 -300px;
 }
 .Tic-Tac-Toe{
-    background: white;
+    /* background: white; */
+    
     width: 60%;
     padding: 10px;
     text-align: center;
@@ -48,18 +49,32 @@ body{
     margin-right: 175px;
 }
 .Guessing-Game{
-    background: white;
+    /* background: white; */
     width: 60%;
     padding: 10px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
     margin-left: 175px;
     margin-right: 175px;
 }
 .Trivia{
-    background: white;
+    /* background: white; */
     width: 60%;
     padding: 10px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.RPS{
+    /* background: white; */
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
     margin-left: 175px;
     margin-right: 175px;
 }
