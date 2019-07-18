@@ -1,0 +1,65 @@
+body{
+    background: #ccc;
+}
+#navbar{
+    color: #FFF;
+}
+#backgroundPic{
+    background: url('../images/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 900px;
+}
+.content{
+    float: left;
+}
+.contentWords{
+    float: left;
+    text-align: center;
+}
+#About{
+    margin-top: -650px;
+}
+.contact{
+    width: 400px;
+    margin-top: -600px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.btn-primary{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#box{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+.Tic-Tac-Toe{
+    background: white;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.Guessing-Game{
+    background: white;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.Trivia{
+    background: white;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+}
